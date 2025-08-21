@@ -1,4 +1,5 @@
 [Variables]
-Time=1
-LevelRequirement=37324
-Level=3
+Time=0
+LevelRequirement=3600
+Level=0
+RGB=144,238,144
