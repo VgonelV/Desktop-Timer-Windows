@@ -7,6 +7,7 @@ function Initialize()
     levelRequirement = tonumber(SKIN:GetVariable('LevelRequirement')) or 3600
     level = tonumber(SKIN:GetVariable('Level')) or 0
     SKIN:Bang('!SetOption MeterCounter Text "' .. time .. '\n/\n' .. levelRequirement .. '"')
+    SKIN:Bang('!SetOption MeterLevel Text "' .. level .. '" "Personal\\Level"')
 end
 
 function Update()
@@ -14,7 +15,7 @@ function Update()
     if time >= levelRequirement then
         time = 0
         level = level + 1
-        levelRequirement = math.floor(levelRequirement * 1.2 * level)
+        levelRequirement = math.floor((math.sqrt(level) + level * 0.5) * 3600)
         SKIN:Bang('!SetOption MeterLevel Text "' .. level .. '" "Personal\\Level"')
         SKIN:Bang('!UpdateMeter MeterLevel "Personal\\Level"')
         SKIN:Bang('!Redraw "Personal\\Level"')

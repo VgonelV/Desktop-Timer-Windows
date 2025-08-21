@@ -1,4 +1,4 @@
 [Variables]
-Time=0
-LevelRequirement=10368
-Level=2
+Time=1
+LevelRequirement=37324
+Level=3
