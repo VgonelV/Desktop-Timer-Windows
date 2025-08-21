@@ -1,2 +1,4 @@
 [Variables]
-Time=34025542334342
+Time=0
+LevelRequirement=10368
+Level=2
