@@ -9,8 +9,8 @@ Click an icon of an arrow pointing up on the taskbar. Click the Rainmeter icon (
 
 ![Failed to load an image](images/rainmeter-window.png)
 
-In the "illustro" folder click on each .ini file, and if loaded, unload them.\n
-To install LevelUpTimer download the current version of the skin, then open it and proceed with the instructions given in the installation window.\n
+In the "illustro" folder click on each .ini file, and if loaded, unload them.  
+To install LevelUpTimer download the current version of the skin, then open it and proceed with the instructions given in the installation window.  
 After installing LevelUpTimer skin you will see a folder with the same name as the skin. You can simply load skin windows by loading .ini files from Level and Measure folders.
 Level folder has a window with your current level.
 Measure folder has a window with your current progress.
