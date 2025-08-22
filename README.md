@@ -1,6 +1,6 @@
 # Desktop-Timer-Windows
 ## Skin file
-This is a Rainmeter skin.
+This is a Rainmeter skin.  
 Here is the most current version of the skin: [LevelUpTimer](LevelUpTimer.rmskin)
 ## Setup
 To be able to use this project you have to install [Rainmeter](https://www.rainmeter.net).

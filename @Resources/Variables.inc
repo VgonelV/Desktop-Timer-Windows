@@ -1,3 +1,4 @@
+; Storing variables after saving
 [Variables]
 Time=0
 LevelRequirement=3600

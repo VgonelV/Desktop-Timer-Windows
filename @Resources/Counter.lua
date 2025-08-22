@@ -4,10 +4,12 @@ local level
 local rgb
 
 function Initialize()
+    -- Reads values of the variables from Variables.inc
     time = tonumber(SKIN:GetVariable('Time')) or 0
     levelRequirement = tonumber(SKIN:GetVariable('LevelRequirement')) or 3600
     level = tonumber(SKIN:GetVariable('Level')) or 0
     rgb = tonumber(SKIN:GetVariable('RGB')) or "144,238,144"
+    -- Forces an update to MeterCounter with the starting time because it is paused by default so it won't get the progress automatically
     SKIN:Bang('!SetOption MeterCounter Text "' .. time .. '\n/\n' .. levelRequirement .. '"')
     SKIN:Bang('!SetOption MeterLevel Text "' .. level .. '" "Personal\\Level"')
 end
@@ -20,6 +22,7 @@ function Update()
         time = 0
         level = level + 1
         levelRequirement = math.floor((math.sqrt(level) + level * 0.5) * 3600)
+        -- Switch like logic to change the background color of the level meter
         if level < 5 then
             rgb = "144,238,144"
         elseif level < 10 then
