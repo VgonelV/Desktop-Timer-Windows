@@ -29,8 +29,6 @@ The level will be displayed on the level window. Every 5 levels, the background 
 You can freely customize this software. In the code you will find helpful hints what to do and why.
 Note: Sometimes putting a comment in the code will break it.
 
-If you would like to publish your own modification of my software, you are free to do it only if you provide credits to my work.
-
 ## Why use it
 You can use this software as a motivation system. It is based on game philosophical aspect - grinding. When you have a goal to reach it is easier to motivate yourself. 
 Before a learning session you can click the timer and start studying. In theory you should be more engaged and more willing to spend more time and more frequently.
